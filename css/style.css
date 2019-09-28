@@ -1,0 +1,37 @@
+:root {
+    --color-saranf-50: #e4fafa;
+    --color-saranf-100: #bcf4f4;
+    --color-saranf-200: #90ecec;
+    --color-saranf-300: #64e4e4;
+    --color-saranf-400: #42dfdf;
+    --color-saranf-500: #21d9d9;
+    --color-saranf-600: #1dd5d5;
+    --color-saranf-700: #18cfcf;
+    --color-saranf-800: #14caca;
+    --color-saranf-900: #0bc0c0;
+    --color-saranf-A100: #ecffff;
+    --color-saranf-A200: #b9ffff;
+    --color-saranf-A400: #86ffff;
+    --color-saranf-A700: #6dffff;
+
+    --color-dvmoomoodv-50: #ffe4ee;
+    --color-dvmoomoodv-100: #febcd4;
+    --color-dvmoomoodv-200: #fe8fb7;
+    --color-dvmoomoodv-300: #fe629a;
+    --color-dvmoomoodv-400: #fd4085;
+    --color-dvmoomoodv-500: #fd1e6f;
+    --color-dvmoomoodv-600: #fd1a67;
+    --color-dvmoomoodv-700: #fc165c;
+    --color-dvmoomoodv-800: #fc1252;
+    --color-dvmoomoodv-900: #fc0a40;
+    --color-dvmoomoodv-A100: #ffffff;
+    --color-dvmoomoodv-A200: #fff1f4;
+    --color-dvmoomoodv-A400: #ffbeca;
+    --color-dvmoomoodv-A700: #ffa5b5;
+}
+
+@font-face { font-family: 'NanumBarunGothic'; font-style: normal; font-weight: 400; src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot'); src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype'); } @font-face { font-family: 'NanumBarunGothic'; font-style: normal; font-weight: 700; src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot'); src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf') format('truetype') } @font-face { font-family: 'NanumBarunGothic'; font-style: normal; font-weight: 300; src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot'); src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.ttf') format('truetype'); } .nanumbarungothic * { font-family: 'NanumBarunGothic', sans-serif; }
+
+* {
+    font-family: 'NanumBarunGothic';
+}
