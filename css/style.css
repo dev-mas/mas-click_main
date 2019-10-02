@@ -30,8 +30,109 @@
     --color-dvmoomoodv-A700: #ffa5b5;
 }
 
-@font-face { font-family: 'NanumBarunGothic'; font-style: normal; font-weight: 400; src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot'); src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype'); } @font-face { font-family: 'NanumBarunGothic'; font-style: normal; font-weight: 700; src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot'); src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf') format('truetype') } @font-face { font-family: 'NanumBarunGothic'; font-style: normal; font-weight: 300; src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot'); src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.ttf') format('truetype'); } .nanumbarungothic * { font-family: 'NanumBarunGothic', sans-serif; }
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+}
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 
 * {
-    font-family: 'NanumBarunGothic';
+    color: #323232;
+}
+
+
+.h50{
+    height: 50px;
+}
+
+
+
+
+main {
+    height: calc(100vh - 100px);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+main h1 {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    text-align: right;
+    color: var(--color-saranf-400);
+    font-weight: bold;
+    text-shadow: 1px 1px 1px gray;
+    font-size: calc(10vw);
+}
+
+main p {
+    margin: 10px 0px 0px 10px;
+    font-size: 18px;    
+    font-weight: bold;
+}
+
+main .carousel{
+    font-family: 'Ubuntu', sans-serif;
+    z-index: -1;
+    position: absolute;
+    top: calc(50vh - 160px);
+    width: 100%;
+    font-size: 50px;
+    opacity: .1;
+}
+main .carousel i {
+    font-size: 32px;
+}
+
+.fa-chevron-circle-down{
+    font-size: 50px;
+    color: var(--color-saranf-400);
+}
+
+.subject{
+    font-size: 48px;
+    font-weight: bold;
+    
+}
+
+.btn-group{
+    font-size: 12px;
+}
+
+.footer .text-muted{
+    font-size: 14px;
+}
+
+
+.timeline {
+    list-style-type: none;
+    position: relative;
+}
+.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
 }
